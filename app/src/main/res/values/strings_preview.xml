@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="preview_title">Preview</string>
+    <string name="preview_button">Preview &amp; export</string>
+    <string name="export_button">Export PDF</string>
+    <string name="exporting">Exporting\u2026</string>
+    <string name="zoom_button">Zoom %1$d%%</string>
+    <string name="page_label">Page %1$d of %2$d</string>
+    <string name="page_description">Page %1$d of %2$d of your resume</string>
+    <plurals name="page_count">
+        <item quantity="one">%d page</item>
+        <item quantity="other">%d pages</item>
+    </plurals>
+
+    <string name="export_success_title">PDF saved</string>
+    <string name="export_success_message">Saved to your Downloads folder as %1$s</string>
+    <string name="action_open">Open</string>
+    <string name="action_share">Share</string>
+    <string name="action_close">Close</string>
+    <string name="share_subject">Resume</string>
+    <string name="message_pdf_saved_toast">Resume PDF saved to Downloads</string>
+
+    <string name="error_export_failed">Could not save the PDF. Check that your device has free storage and try again.</string>
+    <string name="error_no_pdf_viewer">No app is installed that can open PDF files.</string>
+    <string name="error_no_share_app">No app is available to share the file.</string>
+
+    <string name="name_required_title">Add your name first</string>
+    <string name="name_required_message">Your resume needs a full name before it can be exported.</string>
+    <string name="action_edit_details">Edit details</string>
+</resources>

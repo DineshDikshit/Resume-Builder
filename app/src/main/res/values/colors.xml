@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="white">#FFFFFFFF</color>
+    <color name="black">#FF000000</color>
+
+    <color name="brand_primary">#FF1F4E79</color>
+    <color name="brand_on_primary">#FFFFFFFF</color>
+    <color name="brand_primary_container">#FFD6E6F5</color>
+    <color name="brand_on_primary_container">#FF0B2742</color>
+    <color name="brand_secondary">#FF2E7D6B</color>
+    <color name="brand_on_secondary">#FFFFFFFF</color>
+    <color name="brand_background">#FFF8FAFC</color>
+    <color name="brand_surface">#FFFFFFFF</color>
+    <color name="brand_on_surface">#FF1A1C1E</color>
+    <color name="brand_error">#FFB3261E</color>
+
+    <color name="brand_primary_night">#FF9CC4EA</color>
+    <color name="brand_on_primary_night">#FF06223D</color>
+    <color name="brand_primary_container_night">#FF2B4F74</color>
+    <color name="brand_on_primary_container_night">#FFD6E6F5</color>
+    <color name="brand_secondary_night">#FF7FCBB6</color>
+    <color name="brand_on_secondary_night">#FF00382C</color>
+    <color name="brand_background_night">#FF111418</color>
+    <color name="brand_surface_night">#FF1A1D21</color>
+    <color name="brand_on_surface_night">#FFE2E2E6</color>
+    <color name="brand_error_night">#FFF2B8B5</color>
+
+    <color name="ic_launcher_background">#FF1F4E79</color>
+</resources>

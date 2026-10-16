@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.ResumeBuilder" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/brand_primary_night</item>
+        <item name="colorOnPrimary">@color/brand_on_primary_night</item>
+        <item name="colorPrimaryContainer">@color/brand_primary_container_night</item>
+        <item name="colorOnPrimaryContainer">@color/brand_on_primary_container_night</item>
+        <item name="colorSecondary">@color/brand_secondary_night</item>
+        <item name="colorOnSecondary">@color/brand_on_secondary_night</item>
+        <item name="android:colorBackground">@color/brand_background_night</item>
+        <item name="colorSurface">@color/brand_surface_night</item>
+        <item name="colorOnSurface">@color/brand_on_surface_night</item>
+        <item name="colorError">@color/brand_error_night</item>
+        <item name="android:windowLightStatusBar">false</item>
+    </style>
+</resources>

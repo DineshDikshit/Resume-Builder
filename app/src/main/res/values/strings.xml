@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Resume Builder</string>
+
+    <!-- Home screen -->
+    <string name="main_title">My resumes</string>
+    <string name="fab_new_resume">New resume</string>
+    <string name="empty_title">No resumes yet</string>
+    <string name="empty_body">Create your first resume. Everything you enter stays on this device.</string>
+    <string name="empty_button">Create resume</string>
+
+    <!-- Dialogs and actions -->
+    <string name="dialog_new_title">New resume</string>
+    <string name="dialog_rename_title">Rename resume</string>
+    <string name="hint_resume_name">Resume name</string>
+    <string name="default_resume_title">My resume</string>
+    <string name="action_create">Create</string>
+    <string name="action_save">Save</string>
+    <string name="action_rename">Rename</string>
+    <string name="action_duplicate">Duplicate</string>
+    <string name="action_delete">Delete</string>
+    <string name="error_title_required">Please enter a name</string>
+    <string name="delete_title">Delete resume?</string>
+    <string name="delete_message">\u201C%1$s\u201D and all of its entries will be deleted from this device. This cannot be undone.</string>
+
+    <!-- List rows -->
+    <string name="untitled_resume">Untitled resume</string>
+    <string name="no_name_yet">No name yet</string>
+    <string name="resume_meta">%1$s template \u2022 Edited %2$s</string>
+    <string name="more_actions">More actions</string>
+    <string name="more_actions_for">More actions for %1$s</string>
+
+    <!-- Messages -->
+    <string name="message_created">Resume created</string>
+    <string name="message_renamed">Resume renamed</string>
+    <string name="message_duplicated">Resume duplicated</string>
+    <string name="message_deleted">Resume deleted</string>
+    <string name="message_resume_missing">This resume no longer exists.</string>
+    <string name="error_generic">Something went wrong. Please try again.</string>
+
+    <!-- Editor -->
+    <string name="editor_title">Edit resume</string>
+    <string name="navigate_up">Navigate up</string>
+    <string name="section_resume">Resume</string>
+    <string name="hint_resume_name_editor">Resume name (shown only in your list)</string>
+    <string name="template_button">Template: %1$s \u2022 Change</string>
+    <string name="section_personal">Personal details</string>
+    <string name="hint_full_name">Full name</string>
+    <string name="helper_required">Required</string>
+    <string name="hint_professional_title">Professional title</string>
+    <string name="hint_email">Email</string>
+    <string name="hint_phone">Phone</string>
+    <string name="hint_city">City</string>
+    <string name="hint_region">State or region</string>
+    <string name="hint_country">Country</string>
+    <string name="hint_website">Website (optional)</string>
+    <string name="hint_profile_link">Professional profile link (optional)</string>
+    <string name="section_summary">Professional summary</string>
+    <string name="hint_summary">Summary or objective</string>
+    <string name="section_entries">Sections</string>
+    <string name="sections_hint">Tap a section to add and edit its entries.</string>
+    <string name="no_entries">No entries yet</string>
+    <plurals name="entry_count">
+        <item quantity="one">%d entry</item>
+        <item quantity="other">%d entries</item>
+    </plurals>
+    <string name="autosave_note">Changes are saved automatically.</string>
+    <string name="error_name_required">Please enter your full name</string>
+    <string name="error_email_invalid">Enter a valid email address</string>
+
+    <!-- Template picker -->
+    <string name="picker_title">Choose template</string>
+    <string name="template_selected">Currently selected</string>
+    <string name="template_preview_description">Preview of the %1$s template</string>
+
+    <!-- Section list -->
+    <string name="add_item">Add %1$s</string>
+    <string name="section_empty_title">Nothing here yet</string>
+    <string name="section_empty_body">Tap \u201CAdd %1$s\u201D to create your first one.</string>
+    <string name="quick_add_hint">Add skills (separate with commas)</string>
+    <string name="quick_add_button">Add</string>
+    <string name="untitled_entry">Untitled entry</string>
+    <string name="move_up">Move %1$s up</string>
+    <string name="move_down">Move %1$s down</string>
+    <string name="delete_entry">Delete %1$s</string>
+    <string name="move_up_generic">Move up</string>
+    <string name="move_down_generic">Move down</string>
+    <string name="delete_generic">Delete entry</string>
+    <string name="delete_entry_title">Delete entry?</string>
+    <string name="delete_entry_message">\u201C%1$s\u201D will be removed from this resume.</string>
+    <string name="message_entry_deleted">Entry deleted</string>
+    <string name="message_skills_added">Skills added</string>
+
+    <!-- Entry form -->
+    <string name="add_entry_title">Add %1$s</string>
+    <string name="edit_entry_title">Edit %1$s</string>
+    <string name="error_required">This field is required</string>
+    <string name="error_date_format">Use the format YYYY-MM, for example 2024-06</string>
+    <string name="error_date_order">End date cannot be before the start date</string>
+    <string name="discard_title">Discard changes?</string>
+    <string name="discard_message">Your changes to this entry have not been saved.</string>
+    <string name="action_discard">Discard</string>
+    <string name="action_keep_editing">Keep editing</string>
+    <string name="message_entry_missing">This entry no longer exists.</string>
+</resources>
