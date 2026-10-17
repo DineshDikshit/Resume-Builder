@@ -9,7 +9,7 @@ android {
     }
 
     defaultConfig {
-        applicationId = "com.example.resumebuilder"
+        applicationId = "com.dineshdikshit.resumebuilder"
         minSdk = 29
         targetSdk = 36
         versionCode = 1
@@ -40,6 +40,8 @@ dependencies {
     implementation("androidx.recyclerview:recyclerview:1.3.2")
     // Periodic on-device backup job (works offline, has a Java API).
     implementation("androidx.work:work-runtime:2.10.1")
+    // Asks the Play Store app whether a newer version exists (Java API, no internet permission needed).
+    implementation("com.google.android.play:app-update:2.1.0")
     testImplementation(libs.junit)
     androidTestImplementation(libs.espresso.core)
     androidTestImplementation(libs.ext.junit)

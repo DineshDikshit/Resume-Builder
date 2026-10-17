@@ -17,6 +17,7 @@ public class BootReceiver extends BroadcastReceiver {
         }
         try {
             BackupScheduler.schedule(context);
+            Log.i(TAG, "Backup job re-scheduled after boot");
         } catch (RuntimeException e) {
             Log.w(TAG, "Could not re-schedule backup after boot", e);
         }

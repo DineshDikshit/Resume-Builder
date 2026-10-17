@@ -16,6 +16,7 @@ import androidx.recyclerview.widget.RecyclerView;
 
 import com.example.resumebuilder.R;
 import com.example.resumebuilder.data.ResumeRepository;
+import com.example.resumebuilder.update.UpdateManager;
 import com.example.resumebuilder.model.Resume;
 import com.example.resumebuilder.util.Background;
 import com.example.resumebuilder.util.InsetsHelper;
@@ -81,6 +82,7 @@ public class MainActivity extends AppCompatActivity {
                 this::createResume);
         findViewById(R.id.fab_new).setOnClickListener(newResume);
         findViewById(R.id.button_create_first).setOnClickListener(newResume);
+        UpdateManager.attach(this);
     }
 
     @Override

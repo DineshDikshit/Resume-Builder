@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="update_title">New update available</string>
+    <string name="update_message">A new version of Resume Builder with new features is available. Update now to get the latest improvements.</string>
+    <string name="update_action">Update</string>
+    <string name="update_skip">Skip</string>
+    <string name="update_store_unavailable">Could not open the Play Store.</string>
+</resources>
